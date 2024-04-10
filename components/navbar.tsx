@@ -19,20 +19,35 @@ export const Navbar = async () => {
 			>
 				Fragancistico
 			</Link>
-			<div>
+
+			<div className='flex max-w-xs items-center space-x-2 font-bold md:max-w-lg'>
 				<DropdownMenu>
-					<DropdownMenuTrigger>
-						{' '}
-						<MenuIcon />{' '}
+					<DropdownMenuTrigger className='block rounded border p-2 md:hidden'>
+						<MenuIcon aria-label='Menú móvil' />
 					</DropdownMenuTrigger>
 					<DropdownMenuContent>
 						<DropdownMenuSeparator />
-						<DropdownMenuItem>Profile</DropdownMenuItem>
-						<DropdownMenuItem>Billing</DropdownMenuItem>
-						<DropdownMenuItem>Team</DropdownMenuItem>
-						<DropdownMenuItem>Subscription</DropdownMenuItem>
+						<DropdownMenuItem className='cursor-pointer' asChild>
+							<Link href='/'>Inicio</Link>
+						</DropdownMenuItem>
+						<DropdownMenuItem className='cursor-pointer' asChild>
+							<Link href='/'>Fragancias</Link>
+						</DropdownMenuItem>
+						<DropdownMenuItem className='cursor-pointer' asChild>
+							<Link href='/'>Notas</Link>
+						</DropdownMenuItem>
+						<DropdownMenuItem className='cursor-pointer' asChild>
+							<Link href='/'>Perfumistas</Link>
+						</DropdownMenuItem>
 					</DropdownMenuContent>
 				</DropdownMenu>
+
+				<div className='hidden items-center gap-x-6 md:flex'>
+					<Link href='/'>Inicio</Link>
+					<Link href='/'>Fragancias</Link>
+					<Link href='/'>Notas</Link>
+					<Link href='/'>Perfumistas</Link>
+				</div>
 			</div>
 		</nav>
 	);
