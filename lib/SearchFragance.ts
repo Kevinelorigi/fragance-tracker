@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const getGente = async (name) => {
+const getGente = async (name: any) => {
 	const { data } = await axios.get(
 		`https://sephora.p.rapidapi.com/us/products/v2/search?q=${name}`,
 
@@ -8,11 +8,11 @@ const getGente = async (name) => {
 			params: {
 				pageSize: '60',
 				currentPage: '1',
-				node: '1050072',
+				node: 'cat160006',
 			},
 			headers: {
 				'X-RapidAPI-Key':
-					'bfeb40c10emsh6ea68a9296b3fb0p19a362jsnb923ab19a0a1',
+					'b437e0dbacmshf6a5f7ddcaa744dp1387e0jsnad20af18a7d8',
 				'X-RapidAPI-Host': 'sephora.p.rapidapi.com',
 			},
 		},
