@@ -1,11 +1,11 @@
-# 🌸 Fragancístico
+# Fragancístico
 
 **Fragancístico** es una aplicación web que ayuda a las personas que no conocen mucho sobre perfumes a descubrir fragancias ideales para cada ocasión — ya sea para el día, la noche o una cita especial.  
 El proyecto ofrece una experiencia sencilla, visual y rápida para explorar, comparar y aprender sobre distintas marcas y estilos de perfumes.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Next.js 14** – Framework React para SSR y rutas modernas.  
 - **React 18** – Librería principal para la interfaz de usuario.  
