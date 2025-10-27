@@ -202,8 +202,7 @@ export default function Home() {
 								No se encontraron fragancias.
 							</p>
 							<p className='text-lg text-gray-500'>
-								Intenta con otros términos de búsqueda como
-								"Versace", "Jean", "Dior".
+								{`Intenta con otros términos de búsqueda como "Versace", "Jean", "Dior".`}
 							</p>
 						</div>
 					</div>
