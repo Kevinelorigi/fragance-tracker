@@ -14,21 +14,21 @@ Detalla qué se necesita para que el cambio funcione, alguna variable de entorno
 
 ## ¿Cómo se probó el cambio?
 
--   [ ] E2E Testing
--   [ ] Unit Testing
--   [ ] Component Testing
+- [ ] E2E Testing
+- [ ] Unit Testing
+- [ ] Component Testing
 
 ## Capturas de pantalla (opcional)
 
 ## Tipo de cambio (seleccionar uno)
 
--   [ ] Bug fix (resolución de un bug)
--   [ ] New feature (nueva funcionalidad que no rompe otras funcionalidades)
--   [ ] Breaking change (cambio que puede romper otras funcionalidades)
--   [ ] Refactor (cambio que no elimina ni agrega nada nuevo)
+- [ ] Bug fix (resolución de un bug)
+- [ ] New feature (nueva funcionalidad que no rompe otras funcionalidades)
+- [ ] Breaking change (cambio que puede romper otras funcionalidades)
+- [ ] Refactor (cambio que no elimina ni agrega nada nuevo)
 
 ## Checklist:
 
--   [ ] Mi códio sigue la guia de estilos
--   [ ] Mi código necesita documentación (agregala si es necesario)
--   [ ] Probé rigurosamente mi código
+- [ ] Mi códio sigue la guia de estilos
+- [ ] Mi código necesita documentación (agregala si es necesario)
+- [ ] Probé rigurosamente mi código
