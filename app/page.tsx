@@ -198,9 +198,9 @@ export default function Home() {
 					<div className='space-y-6 py-12 text-center'>
 						<div className='text-8xl'>🔍</div>
 						<div className='space-y-2'>
-							<h3 className='text-2xl font-semibold text-gray-700'>
+							<p className='text-2xl font-semibold text-gray-700'>
 								No se encontraron fragancias.
-							</h3>
+							</p>
 							<p className='text-lg text-gray-500'>
 								Intenta con otros términos de búsqueda como
 								"Versace", "Jean", "Dior".
